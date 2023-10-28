@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./external.css">
+  <title>The Picasso Painting</title>
+</head>
+<body>
+  <h1>The Picasso Painting</h1>
+  <div class="box">
+    <div class="innerBox">
+      <div class="box1"></div>
+      <h3>Artwork 1</h3>
+    </div>
+    <div class="innerBox">
+      <div class="box2"></div>
+      <h3>Artwork 2</h3>
+    </div>
+    <div class="innerBox">
+      <div class="box3"></div>
+      <h3>Artwork 3</h3>
+    </div>
+    <div class="innerBox">
+      <div class="box4"></div>
+      <h3>Artwork 4</h3>
+    </div>
+    <div class="innerBox">
+      <div class="box5"></div>
+      <h3>Artwork 5</h3>
+    </div>
+    <div class="innerBox">
+      <div class="box6"></div>
+      <h3>Artwork 6</h3>
+    </div>
+  </div>
+
+  <h2>Checkout</h2>
+  <form action="formsubmitted.html">
+    <div class="customerInfo">
+      <div class="container">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName"/>
+      </div>
+      <div class="container">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName"/>
+      </div>
+      <div class="container">
+        <label for="email">Email:</label>
+        <input type="email" id="email"/>
+      </div>
+    </div>
+    <p>Select to add to cart:</p>
+    <div class="selection">
+      <label for="A1">
+        <input type="checkbox" id="A1" name="artwork1" value="Artwork 1"> Artwork 1</label>
+      <label for="A2">
+        <input type="checkbox" id="A2" name="artwork2" value="Artwork 2"> Artwork 2</label>
+      <label for="A3">
+        <input type="checkbox" id="A3" name="artwork3" value="Artwork 3"> Artwork 3</label>
+      <label for="A4">
+        <input type="checkbox" id="A4" name="artwork4" value="Artwork 4"> Artwork 4</label>
+      <label for="A5">
+        <input type="checkbox" id="A5" name="artwork5" value="Artwork 5"> Artwork 5</label>
+      <label for="A6">
+        <input type="checkbox" id="A6" name="artwork6" value="Artwork 6"> Artwork 6</label>
+      <label for="A7">
+        <input type="checkbox" id="A7" name="bundle" value="Special Bundle"> Bundle Pkg (includes all artworks and access to VIP benefits)</label>
+    </div>
+    <input type="submit" class="submit_btn"/>
+  </form>
+</body>
+</html>
